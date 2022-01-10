@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>2022 Presidental Election</title>
+</head>
+<body>
+    <section class="loading">
+        <img id="flag" src="Flag_of_South_Korea.svg" alt="">
+        <div name="headline" id="headline">
+            <h1>2022년</h1>
+            <h2>
+                <p>제 20대 대한민국</p>
+                <p>대통령선거</p>
+            </h2>
+            <h3>후보공약집</h3>
+        </div>
+        <div class="DD">
+            <h2>D-<span id="result"></span></h2>
+        </div>
+    </section>
+    <footer>
+        <p><span>투표일</span> <span>2022.03.09</span></p>
+        <p><span>(사전투표 </span> <span>2022.03.04 ~ 03.05)</span></p>
+    </footer>
+    <script type="text/javascript">
+        function makeDDay(){
+            const d1 = new Date();
+            const d2 = new Date(2022, 2, 9);
+            const dx = d2.getTime() - d1.getTime();
+            const dayTime = 86400000;
+            const dd = Math.ceil(dx / dayTime);
+            document.querySelector('#result').innerHTML = dd;
+        }
+        makeDDay();
+    </script>
+</body>
+</html>
