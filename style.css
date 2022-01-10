@@ -75,7 +75,7 @@ footer{
     flex-direction: column;
     width: 100%;
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 40px;
 }
 
 @keyframes fadeIn {
