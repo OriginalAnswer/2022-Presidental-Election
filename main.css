@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.n1{
+    background-color: red;
+}
+.n2{
+    background-color: blue;
+}
+.n3{
+    background-color: orangered;
+}
+.n4{
+    background-color: yellow;
+}
+.n5{
+    background-color: green;
+}
