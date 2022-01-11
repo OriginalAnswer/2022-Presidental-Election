@@ -1,22 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ text-decoration: none;
 }
-.n1{
-    background-color: red;
+body {
+ /* width: 100vw;
+ height: 100vh; */
+ /* display: flex;
+ justify-content: center;
+ justify-items: center;
+ align-items: center; */
+ background-color: thistle;
+ /* padding: 20px; */
 }
-.n2{
-    background-color: blue;
+
+section {
+ /* background-color: darkseagreen; */
+ /* height: 100%;
+ width: 100%; */
+ /* padding: 20px; */
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ /* justify-items: center; */
+ /* align-items: center; */
 }
-.n3{
-    background-color: orangered;
+.card {
+ background-color: seashell;
+ height: 400px;
+ width: 300px;
+ margin: 10px;
+ border-radius: 15px;
+ /* display: flex; */
+ /* flex-direction: column; */
+ /* justify-content: space-between; */
 }
-.n4{
-    background-color: yellow;
+.card:hover {
+ transform: scale(1.03);
+ transition: all 0.8s linear;
 }
-.n5{
-    background-color: green;
+.face {
+ height: 300px;
+ margin-bottom: 15px;
+ background-size: cover;
+ border-radius: 15px 15px 0 0;
+ /* width: 100%; */
+}
+.name {
+ /* width: 100%; */
+ /* height: auto; */
+ background: #fff;
+}
+.face-1 {
+ background-image: url(img/윤석열.jfif);
+}
+.face-2 {
+ background-image: url(img/이재명.png);
+}
+.face-3 {
+ background-image: url(img/안철수.jfif);
+}
+.face-4 {
+ background-image: url(img/심상정.jfif);
+}
+.face-5 {
+ background-image: url(img/허경영.png);
+}
+.n1 {
+ background-color: red;
+}
+.n2 {
+ background-color: blue;
+}
+.n3 {
+ background-color: orangered;
+}
+.n4 {
+ background-color: yellow;
+}
+.n5 {
+ background-color: green;
 }
