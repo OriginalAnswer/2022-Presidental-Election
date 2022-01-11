@@ -29,30 +29,48 @@ section {
 }
 .card {
  background-color: seashell;
- height: 400px;
+ height: auto;
  width: 300px;
  margin: 10px;
  border-radius: 15px;
- /* display: flex; */
- /* flex-direction: column; */
- /* justify-content: space-between; */
 }
 .card:hover {
  transform: scale(1.03);
  transition: all 0.8s linear;
 }
+.card:hover .name-1 {
+ border-top: solid 5px #e61e2b;
+ transition: all 0.2s ease;
+}
+.card:hover .name-2 {
+ border-top: solid 5px #004ea2;
+ transition: all 0.2s ease;
+}
+.card:hover .name-3 {
+ border-top: solid 5px #ea5504;
+ transition: all 0.2s ease;
+}
+.card:hover .name-4 {
+ border-top: solid 5px #ffcc00;
+ transition: all 0.2s ease;
+}
+.card:hover .name-5 {
+ border-top: solid 5px #e7141a;
+ transition: all 0.2s ease;
+}
+
 .face {
  height: 300px;
- margin-bottom: 15px;
  background-size: cover;
  border-radius: 15px 15px 0 0;
- /* width: 100%; */
 }
 .name {
- /* width: 100%; */
- /* height: auto; */
  background: #fff;
+ height: 5rem;
+ display: flex;
+ align-items: center;
 }
+
 .face-1 {
  background-image: url(img/윤석열.jfif);
 }
@@ -67,19 +85,4 @@ section {
 }
 .face-5 {
  background-image: url(img/허경영.png);
-}
-.n1 {
- background-color: red;
-}
-.n2 {
- background-color: blue;
-}
-.n3 {
- background-color: orangered;
-}
-.n4 {
- background-color: yellow;
-}
-.n5 {
- background-color: green;
 }
