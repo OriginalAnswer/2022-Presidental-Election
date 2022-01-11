@@ -12,7 +12,7 @@ body {
  justify-content: center;
  justify-items: center;
  align-items: center; */
- background-color: thistle;
+ background-color: rgb(255, 255, 255);
  /* padding: 20px; */
 }
 
@@ -36,7 +36,7 @@ section {
 }
 .card:hover {
  transform: scale(1.03);
- transition: all 0.8s linear;
+ transition: all 0.5s linear;
 }
 .card:hover .name-1 {
  border-top: solid 5px #e61e2b;
@@ -60,12 +60,12 @@ section {
 }
 
 .face {
- height: 300px;
+ height: 310px;
  background-size: cover;
  border-radius: 15px 15px 0 0;
 }
 .name {
- background: #fff;
+ background: rgba(255, 255, 255, 0.308);
  height: 5rem;
  display: flex;
  align-items: center;
