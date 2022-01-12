@@ -5,28 +5,18 @@
  padding: 0;
  text-decoration: none;
 }
+ol,ul,li{
+    list-style-position: inside ;
+    list-style: none;
+}
 body {
- /* width: 100vw;
- height: 100vh; */
- /* display: flex;
- justify-content: center;
- justify-items: center;
- align-items: center; */
- background-color: rgb(255, 255, 255);
- /* padding: 20px; */
+    background-color: rgb(255, 255, 255);
 }
 
 section {
- /* background-color: darkseagreen; */
- /* height: 100%;
- width: 100%; */
- /* padding: 20px; */
  display: flex;
  justify-content: center;
- flex-wrap: wrap;
- /* justify-items: center; */
- /* align-items: center; */
-}
+ flex-wrap: wrap;}
 .card {
  background-color: seashell;
  height: auto;
