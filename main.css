@@ -68,6 +68,8 @@ section {
  align-items: center;
  justify-content: center;
 }
+.logo3 {
+}
 
 .card:hover {
  transform: scale(1.0001);
