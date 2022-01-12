@@ -1,83 +1,109 @@
-@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gowun+Batang&display=swap");
 * {
  box-sizing: border-box;
  margin: 0;
  padding: 0;
  text-decoration: none;
 }
-ol,ul,li{
-    list-style-position: inside ;
-    list-style: none;
+ol,
+ul,
+li {
+ list-style-position: inside;
+ list-style: none;
 }
 body {
-    background-color: rgb(255, 255, 255);
+ background-color: rgb(255, 255, 255);
 }
-
 section {
  display: flex;
  justify-content: center;
- flex-wrap: wrap;}
-.card {
- background-color: seashell;
- height: auto;
- width: 300px;
- margin: 10px;
- border-radius: 15px;
+ flex-wrap: wrap;
 }
-.card:hover {
- transform: scale(1.03);
- transition: all 0.5s linear;
+/* -------------------------------------------- */
+.face-1 {
+ background-image: url(img/윤석열.jfif);
 }
-.card:hover .name-1 {
-    border-top: solid 5px #e61e2b;
-    transition: all 0.2s ease;
+.face-2 {
+ background-image: url(img/이재명.png);
 }
-.card:hover .name-2 {
-    border-top: solid 5px #004ea2;
-    transition: all 0.2s ease;
+.face-3 {
+ background-image: url(img/안철수.jfif);
 }
-.card:hover .name-3 {
-    border-top: solid 5px #ea5504;
-    transition: all 0.2s ease;
+.face-4 {
+ background-image: url(img/심상정.jfif);
 }
-.card:hover .name-4 {
-    border-top: solid 5px #ffcc00;
- transition: all 0.2s ease;
-}
-.card:hover .name-5 {
- border-top: solid 5px #e7141a;
- transition: all 0.2s ease;
+.face-5 {
+ background-image: url(img/허경영.png);
 }
 
 .face {
-    height: 310px;
-    background-size: cover;
-    border-radius: 15px 15px 0 0;
+ height: 310px;
+ width: 300px;
+ background-size: cover;
+ border-radius: 100px 100px 0 0;
 }
 .name {
- background: rgba(255, 255, 255, 0.308);
+ background: rgb(255, 255, 255);
  height: 5rem;
+ width: 100%;
  display: flex;
  align-items: center;
+ box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+ border-radius: 55px 20px 55px 20px;
+ justify-content: center;
+ font-family: "Gowun Batang", serif;
+ letter-spacing: 20px;
+ font-size: 1.3rem;
+ font-weight: bold;
 }
 
-.face-1 {
-    background-image: url(img/윤석열.jfif);
-}
-.face-2 {
-    background-image: url(img/이재명.png);
-}
-.face-3 {
-    background-image: url(img/안철수.jfif);
-}
-.face-4 {
-    background-image: url(img/심상정.jfif);
-}
-.face-5 {
-    background-image: url(img/허경영.png);
+.card {
+ background-color: #fff;
+ height: auto;
+ width: 400px;
+ margin: 10px;
+ border-radius: 15px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
 }
 
-.filter{
-    backdrop-filter: blur(5px);
-    -webkit-filter: blur(5px);
+.card:hover {
+ transform: scale(1.0001);
+ transition: all 0.5s linear;
+}
+.card:hover .name-1 {
+ border-left: solid 20px #e61e2b;
+ border-right: solid 20px #e61e2b;
+ transition: all 0.2s ease;
+}
+.card:hover .name-2 {
+ border-left: solid 20px #004ea2;
+ border-right: solid 20px #004ea2;
+ transition: all 0.2s ease;
+}
+.card:hover .name-3 {
+ border-left: solid 20px #ea5504;
+ border-right: solid 20px #ea5504;
+ transition: all 0.2s ease;
+}
+.card:hover .name-4 {
+ border-left: solid 20px #ffcc00;
+ border-right: solid 20px #ffcc00;
+ transition: all 0.2s ease;
+}
+.card:hover .name-5 {
+ border-left: solid 20px #e7141a;
+ border-right: solid 20px #e7141a;
+ transition: all 0.2s ease;
+}
+
+.filter {
+ backdrop-filter: blur(5px);
+ -webkit-filter: blur(5px);
+}
+
+.hidden {
+ display: none;
 }
