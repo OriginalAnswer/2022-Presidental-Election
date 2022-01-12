@@ -39,19 +39,19 @@ section {
  transition: all 0.5s linear;
 }
 .card:hover .name-1 {
- border-top: solid 5px #e61e2b;
- transition: all 0.2s ease;
+    border-top: solid 5px #e61e2b;
+    transition: all 0.2s ease;
 }
 .card:hover .name-2 {
- border-top: solid 5px #004ea2;
- transition: all 0.2s ease;
+    border-top: solid 5px #004ea2;
+    transition: all 0.2s ease;
 }
 .card:hover .name-3 {
- border-top: solid 5px #ea5504;
- transition: all 0.2s ease;
+    border-top: solid 5px #ea5504;
+    transition: all 0.2s ease;
 }
 .card:hover .name-4 {
- border-top: solid 5px #ffcc00;
+    border-top: solid 5px #ffcc00;
  transition: all 0.2s ease;
 }
 .card:hover .name-5 {
@@ -60,9 +60,9 @@ section {
 }
 
 .face {
- height: 310px;
- background-size: cover;
- border-radius: 15px 15px 0 0;
+    height: 310px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
 }
 .name {
  background: rgba(255, 255, 255, 0.308);
@@ -72,17 +72,22 @@ section {
 }
 
 .face-1 {
- background-image: url(img/윤석열.jfif);
+    background-image: url(img/윤석열.jfif);
 }
 .face-2 {
- background-image: url(img/이재명.png);
+    background-image: url(img/이재명.png);
 }
 .face-3 {
- background-image: url(img/안철수.jfif);
+    background-image: url(img/안철수.jfif);
 }
 .face-4 {
- background-image: url(img/심상정.jfif);
+    background-image: url(img/심상정.jfif);
 }
 .face-5 {
- background-image: url(img/허경영.png);
+    background-image: url(img/허경영.png);
+}
+
+.filter{
+    backdrop-filter: blur(5px);
+    -webkit-filter: blur(5px);
 }
