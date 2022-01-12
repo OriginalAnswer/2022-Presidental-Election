@@ -36,15 +36,23 @@ body {
 }
 /* -------Flag------- */
 #flag {
- width: 200px;
+ width: 210px;
  opacity: 0;
- transform: translateY(-35px);
+ transform: translateY(-36px);
  animation: fadeIn 0.6s linear 1.6s forwards;
+}
+#logo {
+ position: absolute;
+ height: auto;
+ width: auto;
+ opacity: 0;
+ z-index: -100;
+ animation: fadeIn2 2s linear 3s forwards;
 }
 /* -------Flag------- */
 
 #headline {
- background-color: #fff;
+ /* background-color: #fff; */
  display: flex;
  justify-items: center;
  align-items: center;
@@ -96,6 +104,17 @@ footer {
  }
  100% {
   opacity: 1;
+ }
+}
+@keyframes fadeIn2 {
+ 0% {
+  opacity: 0;
+ }
+ 30% {
+  opacity: 0.09;
+ }
+ 100% {
+  opacity: 0.2;
  }
 }
 

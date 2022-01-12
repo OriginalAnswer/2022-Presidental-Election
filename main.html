@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="smooth" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,11 @@
     <title>2022 Presidental Election</title>
 </head>
 <body>
+    
     <section class="container">
+        <div class="logobox">
+            <img id="logo" src="img/Vote2.svg.png">
+        </div>
         <div class="card" id="n1">
             <div class="face face-1"></div>
             <div class="name name-1">
@@ -697,65 +701,76 @@
         var n3 = document.getElementById('n3');
         var n4 = document.getElementById('n4');
         var n5 = document.getElementById('n5');
+        var logo = document.getElementById('logo');
         n1.addEventListener('mouseenter', function() {
             n2.classList.add("filter");
             n3.classList.add("filter");
             n4.classList.add("filter");
             n5.classList.add("filter");
+            logo.classList.add("filter");
         });
         n1.addEventListener('mouseleave', function() {
             n2.classList.remove("filter");
             n3.classList.remove("filter");
             n4.classList.remove("filter");
             n5.classList.remove("filter");
+            logo.classList.remove("filter");
         });
         n2.addEventListener('mouseenter', function() {
             n1.classList.add("filter");
             n3.classList.add("filter");
             n4.classList.add("filter");
             n5.classList.add("filter");
+            logo.classList.add("filter");
         });
         n2.addEventListener('mouseleave', function() {
             n1.classList.remove("filter");
             n3.classList.remove("filter");
             n4.classList.remove("filter");
             n5.classList.remove("filter");
+            logo.classList.remove("filter");
         });
         n3.addEventListener('mouseenter', function() {
             n2.classList.add("filter");
             n1.classList.add("filter");
             n4.classList.add("filter");
             n5.classList.add("filter");
+            logo.classList.add("filter");
         });
         n3.addEventListener('mouseleave', function() {
             n2.classList.remove("filter");
             n1.classList.remove("filter");
             n4.classList.remove("filter");
             n5.classList.remove("filter");
+            logo.classList.remove("filter");
         });
         n4.addEventListener('mouseenter', function() {
             n2.classList.add("filter");
             n3.classList.add("filter");
             n1.classList.add("filter");
             n5.classList.add("filter");
+            logo.classList.add("filter");
         });
         n4.addEventListener('mouseleave', function() {
             n2.classList.remove("filter");
             n3.classList.remove("filter");
             n1.classList.remove("filter");
             n5.classList.remove("filter");
+            logo.classList.remove("filter");
         });
         n5.addEventListener('mouseenter', function() {
             n2.classList.add("filter");
             n3.classList.add("filter");
             n4.classList.add("filter");
             n1.classList.add("filter");
+            logo.classList.add("filter");
         });
         n5.addEventListener('mouseleave', function() {
             n2.classList.remove("filter");
             n3.classList.remove("filter");
             n4.classList.remove("filter");
             n1.classList.remove("filter");
+            logo.classList.remove("filter");
         });
     </script>
 </body>
