@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gowun+Batang&display=swap");
+body{
+}
+
+.logoFirst{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+width: 100px;
+opacity: 0;
+transform: translateY(-10px);
+animation: logoUp 0.6s linear .8s forwards;
+filter: drop-shadow(0px 30px 12px rgba(0, 0, 0, 0.3))
+drop-shadow(0px 20px 30px rgba(255, 227, 227, 0.3))
+drop-shadow(0px 5px 5px  rgba(0, 0, 0, 0.3));
+/* transform:rotateX(80deg); */
+}
+
+
+@keyframes logoUp {
+0% {
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0))
+            drop-shadow(0px 0px 5px rgba(255, 227, 227, 0))
+            drop-shadow(0px 0px 5px  rgba(0, 0, 0, 0));
+    transform: translateY(50px);
+    opacity: 0;
+}
+30% {
+    opacity: 0.2;
+    filter: drop-shadow(0px 15px 5px rgba(0, 0, 0, 0))
+            drop-shadow(0px 10px 5px rgba(255, 227, 227, 0))
+            drop-shadow(0px 5px 5px  rgba(0, 0, 0, 0));
+}
+100% {
+    opacity: 1;
+}
+}

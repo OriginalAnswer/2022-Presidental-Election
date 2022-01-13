@@ -60,20 +60,20 @@ section {
 /* -------------------------------------------- */
 
 #face-1 {
-    background-image: url(img/윤석열.jfif);
+    background-image: url(../img/윤석열.jfif);
 }
 .face-2 {
-    background-image: url(img/이재명.png);
+    background-image: url(../img/이재명.png);
 }
 .face-3 {
-    background-image: url(img/안철수.jfif);
+    background-image: url(../img/안철수.jfif);
 }
-.face-4 {
-    background-image: url(img/심상정.jfif);
-}
-.face-5 {
-    background-image: url(img/허경영.png);
-}
+/* .face-4 {
+    background-image: url(../img/심상정.jfif);
+} */
+/* .face-5 {
+    background-image: url(../img/허경영.png);
+} */
 
 .face {
     height: 210px;
