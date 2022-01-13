@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gowun+Batang&display=swap");
 body{
+    width: 100%;
+    height: 100%;
+    position: fixed;
 }
 
 .logoFirst{
